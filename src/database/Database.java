@@ -84,6 +84,10 @@ public class Database{
         return sql = sentencia.executeQuery(query);
     }
     
+    public Connection getConexion(){
+        return conexion;
+    }
+    
     /*public ResultSet getTables(String table) throws SQLException{
         return sql = dbmd.getTables(null, null, table, null);
     }*/
